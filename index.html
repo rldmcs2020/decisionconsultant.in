@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -80,6 +80,7 @@
             align-items: center;
             justify-content: center;
             border: 3px solid #4CAF50;
+            overflow: hidden;
         }
         
         .logo-text {
@@ -116,9 +117,6 @@ nav ul {
             color: #4CAF50;
         }
 
-       /* Header already has padding: 20px 0 */
-
-/* Hero Section */
 .hero {
     color: black;
     text-align: center;
@@ -139,14 +137,11 @@ nav ul {
 }
 
 
-
-
-/* Section Title */
 .section-title {
     text-align: center;
     font-size: 2.25rem;
     color: #000000;
-    margin: 5px 0 40px; 
+    margin: 5px 0 40px;
     position: relative;
     display: inline-block;
     left: 50%;
@@ -155,7 +150,7 @@ nav ul {
 
 
 .section-title .icon {
-    color: #4CAF50; /* icon color */
+    color: #4CAF50;
     margin-right: 10px;
 }
 
@@ -207,7 +202,7 @@ nav ul {
             color: #000000;
             margin-bottom: 15px;
             display: flex;
-            justify-content: center; /* यही center करेगा */
+            justify-content: center;
            align-items: center;
             
         }
@@ -235,8 +230,8 @@ border-bottom: 1px solid #f0f0f0;
         }
 
      .achievements-card p {
-    font-size: 1.1rem;   /* अपनी पसंद के अनुसार बदल सकते हैं */
-    line-height: 1.6;  /* reading smooth हो जाएगी */
+    font-size: 1.1rem;
+    line-height: 1.6;
     
     word-spacing: 3px;
    text-align: justify;
@@ -244,91 +239,49 @@ border-bottom: 1px solid #f0f0f0;
 
      
  
-/* Social Icons (Extra Small) */
 .social-icon {
     display: inline-block;
     margin: 5px;
-    padding: 6px;           /* और छोटा */
-    font-size: 16px;        /* icon size कम */
+    padding: 6px;
+    font-size: 16px;
     border-radius: 50%;
     color: white;
-    width: 32px;            /* और छोटा */
-    height: 32px;           /* और छोटा */
-    line-height: 18px;      /* icon को center में रखने के लिए */
+    width: 32px;
+    height: 32px;
+    line-height: 18px;
     text-align: center;
     transition: 0.3s;
 }
 
-     
+.social-whatsapp { background: #25D366; }
+.social-whatsapp:hover { background: #1eb155; }
 
-/* whatsapp */
-.social-whatsapp {
-    background: #25D366;
-}
-.social-whatsapp:hover {
-    background: #1eb155;
-}
+.social-instagram { background: #C13584; }
+.social-instagram:hover { background: #C13584; }
 
-
-/* instagram */
-.social-instagram {
-    background: #C13584;
-}
-.social-instagram:hover {
-    background: #C13584;
-}
-
-
-
-     
-/* Adjust Font Awesome icon size inside */
 .social-instagram i {
     font-size: 18px;
     line-height: 1;
 }
 
+.social-facebook { background: #1877F2; }
+.social-facebook:hover { background: #0f5dc1; }
 
-/* Facebook */
-.social-facebook {
-    background: #1877F2;
-}
-.social-facebook:hover {
-    background: #0f5dc1;
-}
+.social-youtube { background: #FF0000; }
+.social-youtube:hover { background: #c40000; }
 
-/* YouTube */
-.social-youtube {
-    background: #FF0000;
-}
-.social-youtube:hover {
-    background: #c40000;
-}
+.social-linkedin { background: #0077B5; }
+.social-linkedin:hover { background: #005f90; }
 
-/* LinkedIn */
-.social-linkedin {
-    background: #0077B5;
-}
-.social-linkedin:hover {
-    background: #005f90;
-}
+.social-google { background: #DB4437; }
+.social-google:hover { background: #b13629; }
 
-/* Google */
-.social-google {
-    background: #DB4437;
-}
-.social-google:hover {
-    background: #b13629;
-}
-
-/* Twitter / X */
 .social-twitter {
     background: #000000;
     color: #ffffff;
     border: 2px solid #ffffff;
 }
-.social-twitter:hover {
-    background: #333333;
-}
+.social-twitter:hover { background: #333333; }
 
       
    .floating-button { 
@@ -348,13 +301,11 @@ border-bottom: 1px solid #f0f0f0;
     font-size: 24px;
 }
 
-/* Calling Button Position */
 .call-button {
     bottom: 20px;
     left: 20px;
 }
 
-/* Home Button Position */
 .home-button {
     top: 40%;
     right: 20px;
@@ -392,12 +343,12 @@ border-bottom: 1px solid #f0f0f0;
 
 
     .section-title {
-        font-size: 28px;   /* छोटा किया */
-        margin: 5px 0 30px; /* spacing adjust */
+        font-size: 28px;
+        margin: 5px 0 30px;
     }
 
     .section-title .green-line {
-        width: 60px;  /* छोटी लाइन */
+        width: 60px;
         height: 3px;
     }
 
@@ -436,45 +387,30 @@ border-bottom: 1px solid #f0f0f0;
     }
 
 
-
-
-   /* Social Icons (Extra Small) */
     .social-icon {
         display: inline-block;
         margin: 5px;
-        padding: 6px;           /* और छोटा */
-        font-size: 16px;        /* icon size कम */
+        padding: 6px;
+        font-size: 16px;
         border-radius: 50%;
         color: white;
-        width: 32px;            /* और छोटा */
-        height: 32px;           /* और छोटा */
-        line-height: 18px;      /* center */
+        width: 32px;
+        height: 32px;
+        line-height: 18px;
         text-align: center;
         transition: 0.3s;
     }
 
-    /* Instagram */
     .social-instagram { background: #E1306C; }
-
     .social-instagram:hover { background: #ad2453; }
-
-    /* Facebook */
     .social-facebook { background: #1877F2; }
     .social-facebook:hover { background: #0f5dc1; }
-
-    /* YouTube */
     .social-youtube { background: #FF0000; }
     .social-youtube:hover { background: #c40000; }
-
-    /* LinkedIn */
     .social-linkedin { background: #0077B5; }
     .social-linkedin:hover { background: #005f90; }
-
-    /* Google */
     .social-google { background: #DB4437; }
     .social-google:hover { background: #b13629; }
-
-    /* Twitter / X */
     .social-twitter {
         background: #000000;
         color: #ffffff;
@@ -482,35 +418,25 @@ border-bottom: 1px solid #f0f0f0;
     }
     .social-twitter:hover { background: #333333; }
 
-
-
    .floating-button {
-        width: 40px;     /* original size रखें ताकि spacing न बिगड़े */
+        width: 40px;
         height: 40px;
-        margin: 0;       /* कोई extra margin न रहे */
-        
+        margin: 0;
     }
 
     .floating-button i {
         font-size: 22px;
-
     }
 
-    /* Calling Button – बिल्कुल corner पर */
     .call-button {
-        bottom: 5%;   /* corner के करीब */
+        bottom: 5%;
         left: 5px;
-
     }
 
-    /* Home Button – बिल्कुल corner पर */
     .home-button {
         top: 50%;
         right: 0px;
     }
-
-
-
         }
     </style>
 </head>
@@ -524,7 +450,7 @@ border-bottom: 1px solid #f0f0f0;
  <div class="logo">
                 
 <div class="logo-img">
-                    <i class="fas fa-brain fa-2x" style="color: #4CAF50;"></i>
+                    <img src="RLlogo.png" alt="Rajesh Lakha Logo" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
                 </div>
                 
 <div class="logo-text">Rajesh <span>Lakha</span><br>
@@ -560,12 +486,16 @@ border-bottom: 1px solid #f0f0f0;
     <section class="hero">
     <div class="container">  
   
- <h3 style="color:#C62828; font-size:18px;">
-    Personal/Professional Problem → Wrong Decisions → Mental Health Problems → 
-
-Suicidal Thoughts/ Criminal Thoughts
+  <h3 style="font-size:18px;">
+    <span style="color:#ffde59;">Personal/Professional Problem</span>
+    → 
+    <span style="color:#C62828;">Wrong Decisions</span>
+    → 
+    <span style="color:#C62828;">Mental Health Problems</span>
+    → 
+    <span style="color:#C62828;">Suicidal Thoughts</span>
 </h3>
-  
+     
 <br>
  <h1><strong><span style="font-size: 28px;">Telephonic Solution for Personal, Professional and Mental Health Problems through Decision Science only</span></strong></h1>
 
@@ -686,7 +616,6 @@ Suicidal Thoughts/ Criminal Thoughts
     
         <div class="container">  
 
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
           <h2 class="section-title">
     
      About
@@ -725,7 +654,6 @@ Suicidal Thoughts/ Criminal Thoughts
 <section id="achievements" class="achievements">
     <div class="container">
         
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
          <h2 class="section-title">
     
      Key Achievements
@@ -766,7 +694,7 @@ Conducted training at government institutions including <strong>MP Police, RCVP 
                 <h3><i class="fas fa-users"></i> Training Impact</h3>
 
                 <p style="text-align:left;">
-Received highly positive feedback and strong support for including the Decision Concept in the students’ curriculum.</p>
+Received highly positive feedback and strong support for including the Decision Concept in the students' curriculum.</p>
             </div>
 
         </div>
@@ -778,7 +706,6 @@ Received highly positive feedback and strong support for including the Decision 
 <section id="why" class="achievements">
     <div class="container">
        
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
         <h2 class="section-title">
     
      Why Choose Decision Approach
@@ -792,7 +719,7 @@ Received highly positive feedback and strong support for including the Decision 
 
              
     <p style="font-size: 1.1rem; word-spacing: 3px;">
-      In today’s dynamic social environment, every individual is <strong>compelled </strong> to make personal decisions each day in various situations related to <strong> career, relationships, and emotions.</strong>
+      In today's dynamic social environment, every individual is <strong>compelled </strong> to make personal decisions each day in various situations related to <strong> career, relationships, and emotions.</strong>
     <br><br>
 
    
@@ -816,7 +743,6 @@ Received highly positive feedback and strong support for including the Decision 
 <section id="Cause" class="achievements">
     <div class="container">
         
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
         <h2 class="section-title">
     
     Root Cause of Problems
@@ -883,8 +809,6 @@ Received highly positive feedback and strong support for including the Decision 
 <li>Time management issues</li>
         <li>Lack of motivation in life</li>
         <li>Boring life</li>
-        
-        
 
     </ul>
 </div>
@@ -939,8 +863,6 @@ Received highly positive feedback and strong support for including the Decision 
     
 <div class="container">
 
-      
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
         <h2 class="section-title">
     <span class="icon"><i class="fas fa-angry"></i>
 </span> Trouble by Others
@@ -1008,8 +930,6 @@ Received highly positive feedback and strong support for including the Decision 
     
 <div class="container">
 
-      
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
         <h2 class="section-title">
     <span class="icon"><i class="fas fa-shield-alt"></i></span> Female Security Problems
     
@@ -1034,9 +954,6 @@ Received highly positive feedback and strong support for including the Decision 
 </ul>
 
 </div>
-
-
-
 
 
     <div class="achievements-card" >
@@ -1075,8 +992,6 @@ Received highly positive feedback and strong support for including the Decision 
     
 <div class="container">
 
-      
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
         <h2 class="section-title">
     <span class="icon"><i class="fas fa-brain"></i></span> Mental Health Problems
     
@@ -1108,9 +1023,6 @@ Received highly positive feedback and strong support for including the Decision 
 
     <div class="achievements-card" >
             
-
- 
-
  <ul>
   
   <li>Uneasiness</li>
@@ -1152,8 +1064,6 @@ Received highly positive feedback and strong support for including the Decision 
     
 <div class="container">
 
-      
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
           <h2 class="section-title">
     <span class="icon"><i class="fas fa-graduation-cap"></i></span>
      Educational Problems
@@ -1175,17 +1085,10 @@ Received highly positive feedback and strong support for including the Decision 
       <li>Boring class/ Teacher</li>
       <li>Lack of dedication or interest in studies</li>
       <li>Lack of interest in any subject</li>
-     
        <li>Competition</li>
-      
-
 
     </ul>
 </div>
-
- 
-
-
 
          <div class="achievements-card" >
    <ul>
@@ -1206,17 +1109,12 @@ Received highly positive feedback and strong support for including the Decision 
       <li>Addiction to mobile phones/internet</li>
  <li>Bullying and discrimination</li>
       <li>Financial difficulties in studies</li>
-      
-     
 </ul>
 
  </div>
 
    </div>
 </section>
-
-
-
 
 
 <!-- Career-Problems -->
@@ -1226,8 +1124,6 @@ Received highly positive feedback and strong support for including the Decision 
     
 <div class="container">
 
-      
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
          <h2 class="section-title">
     <span class="icon"><i class="fas fa-briefcase"></i></span>
      Career/ Job Problems
@@ -1292,8 +1188,6 @@ Received highly positive feedback and strong support for including the Decision 
     
 <div class="container">
 
-      
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
        <h2 class="section-title">
     <span class="icon"><i class="fas fa-heart"></i>&nbsp; <i class="fas fa-people-roof"></i></span>
      Relationship/ Marriage/ Family Problems
@@ -1316,12 +1210,9 @@ Received highly positive feedback and strong support for including the Decision 
       <li>Frequent arguments</li>
       <li>Extramarital affairs</li>
 <li>Various types of cheating or lying</li>
-             
 <li>Emotional manipulation/ deception</li>
         
 </ul></div>
-
-
 
 
          <div class="achievements-card" >
@@ -1339,8 +1230,6 @@ Received highly positive feedback and strong support for including the Decision 
        
  </div>
 
-
-              
       <div class="achievements-card" >
    <ul> 
 
@@ -1357,20 +1246,13 @@ Received highly positive feedback and strong support for including the Decision 
  </div>
 
       </div>  
-
-
-
- 
 </section>
-
-
 
 
 <!-- Guidance -->
 <section id="Guidance" class="achievements">
     <div class="container">
         
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
           <h2 class="section-title">
    
      Subjects for Guidance
@@ -1383,12 +1265,8 @@ Received highly positive feedback and strong support for including the Decision 
     <div class="container">
         <div class="achievements-grid">
 
-          
-
  <div id="Safety-Guidance" class="achievements-card">
-                <h3><i class="fas fa-shield-alt"></i>
-
- Safety Guidance </h3>
+                <h3><i class="fas fa-shield-alt"></i> Safety Guidance </h3>
                 <ul>
   <li>Guidance for Safe Your Bank Account from hackers</li>
     <li>Guidance for safe female family members from unethical persons</li>
@@ -1397,79 +1275,49 @@ Received highly positive feedback and strong support for including the Decision 
 
 
 <div id="Pregnancy-Guidance" class="achievements-card">
-              
-
 <h3>
   <i class="fa-solid fa-person-pregnant"></i>Guidance For Pregnancy Period
 </h3>
-
-
                <ul>
   <li>Guidance to the pregnant woman for proper mental development of the fetus.</li>
-     
  </ul> </div>
 
 
 <div id="0-to-12-year" class="achievements-card">
-                <h3>
-
-<i class="fas fa-baby"></i>
-
-
-
- Guidance for 0 (Zero) to 12 year Child </h3>
+                <h3><i class="fas fa-baby"></i> Guidance for 0 (Zero) to 12 year Child </h3>
                 <ul>
   <li>Guidance for parents to take care of their children for the proper mental development and better performance in education.</li>
-     
  </ul> </div>
 
 
 <div id="13-to-20-year" class="achievements-card">
                 
-<h3><i class="fas fa-person-walking"></i>
-
-</i> Guidance to 13 to 20 year age group </h3>
+<h3><i class="fas fa-person-walking"></i> Guidance to 13 to 20 year age group </h3>
                
   <p>In this age group, the possibility of moving in the wrong direction is highest.</p> <br>
 
  <ul>
   <li> Guidance for maintain the right direction in personal, educational and professional life.</li>
-     
  </ul> </div>
 
 <div id="House-Wife" class="achievements-card">
                 <h3>
-
 <i class="fa-solid fa-person" style="margin-right:1px;"></i>
 <i class="fa-solid fa-person-dress"></i>
-
 Guidance to House Wife/husband</h3>
-                
-
-
 
 <ul> 
-  <li>Guidance for the proper utilization of the whole day’s time.</li>
-
+  <li>Guidance for the proper utilization of the whole day's time.</li>
   <li> Guidance for dealing with family members</li>
-
  <li> Guidance for handling various situations</li>
-     
  </ul> </div>
 
 
 <div id="Retirement" class="achievements-card">
-                <h3><i class="fas fa-person-cane"></i>
-
-
-
- Guidance For Retirement Period</h3>
+                <h3><i class="fas fa-person-cane"></i> Guidance For Retirement Period</h3>
                 <ul>
   <li>Guidance for proper utilization of retirement period</li>
-
   <li> Guidance to handle Lonely Situations</li>
-
-     
  </ul> </div>
 
 
@@ -1482,16 +1330,12 @@ Guidance to House Wife/husband</h3>
   <li>Guidance for Always staying Motivated in life</li>
   <li>Guidance for Time Management</li>
 <li>Guidance for handling various people</li>
- 
 </ul> </div>
-
-
 
 
 <div id="Financial-Guidance" class="achievements-card">
                 <h3><i class="fas fa-coins"></i> Financial Guidance   </h3>
                 <ul>
- 
   <li>Guidance for Expense Management</li>
   <li>Guidance for Budget Planning</li>
     <li>Guidance on Investment</li>
@@ -1500,21 +1344,13 @@ Guidance to House Wife/husband</h3>
 </ul> </div>
 
 
-
-
 </div>
 </section>
 
 
 <!-- Relationship-Guidance -->
 <section id="Relationship-Guidance" class="achievements">
-
-<class="achievements">
-    
 <div class="container">
-
-      
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
        <h2 class="section-title">
     <span class="icon"><i class="fas fa-heart"></i>&nbsp; <i class="fas fa-people-roof"></i></span>
    
@@ -1522,9 +1358,7 @@ Relationships/ Marriage/ Family Guidance
 
     <span class="green-line"></span>
 </h2>
-
        </div> </div>
- 
 
  <div class="container">
         <div class="achievements-grid">
@@ -1539,45 +1373,27 @@ Relationships/ Marriage/ Family Guidance
 
 
 <div class="achievements-card">
-
 <ul>
   <li>Guidance for Marriage Celebration</li>
   <li>Guidance for Handling In-Laws</li>
   <li>Guidance for Handling a Cheating or Unfaithful Partner</li>
 </ul>
-
 </div>
 
 <div class="achievements-card">
-
 <ul>
   <li>Guidance for interaction with Family Members</li>
   <li>Guidance for Responsibilities or Task Management with Family Members</li>
 </ul>
-
 </div>
 
  </div>
     </div></section>
 
 
-
-
-
-
-
-
-
-
 <!-- Educational-Guidance -->
 <section id="Educational-Guidance" class="achievements">
-
-<class="achievements">
-    
 <div class="container">
-
-      
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
        <h2 class="section-title">
     <span class="icon"><i class="fas fa-graduation-cap"></i></span>
    
@@ -1585,9 +1401,7 @@ Educational Guidance
 
     <span class="green-line"></span>
 </h2>
-
        </div> </div>
- 
 
  <div class="container">
         <div class="achievements-grid">
@@ -1595,58 +1409,36 @@ Educational Guidance
 <div class="achievements-card">
 <ul>
   <li>Guidance for Deciding and Achieving the Goal of Study</li>
-  
   <li>Guidance for Effective Use of Classroom Sessions</li>
 <li>Guidance for Increasing Concentration in Studies</li>
 </ul>
-
 </div>
 
 
 <div class="achievements-card">
-
 <ul>
 <li>Guidance for Increasing Interest in Studies</li>
   <li>Guidance for Making Notes</li>
   <li>Guidance for Reading Books</li>
   <li>Guidance for Exam Preparation</li>
-
 </ul>
-
 </div>
 
 <div class="achievements-card">
-
-<ul> <li>Guidance for Time Management in Studies</li>
+<ul>
+  <li>Guidance for Time Management in Studies</li>
 <li>Guidance for Handling Friends or Classmates</li>
   <li>Guidance for Handling Family Members or Relatives</li>
- 
-  
 </ul>
-
 </div>
 
  </div>
     </div></section>
 
 
-
-
-
-
-
-
-
-
 <!-- Private/Government-Job-Persons -->
 <section id="Private/Government-Job-Persons" class="achievements">
-
-<class="achievements">
-    
 <div class="container">
-
-      
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
        <h2 class="section-title">
     <span class="icon"><i class="fas fa-briefcase"></i></span>
    
@@ -1654,9 +1446,7 @@ Educational Guidance
 
     <span class="green-line"></span>
 </h2>
-
        </div> </div>
- 
 
  <div class="container">
         <div class="achievements-grid">
@@ -1666,22 +1456,19 @@ Educational Guidance
   <li>Guidance for choosing a suitable job option</li>
 <li>Guidance for Job switching</li>
   <li>Guidance for dealing with colleagues/ team members</li>
-  
 </ul>
 </div>
 
 
 <div class="achievements-card">
-
-<ul><li>Guidance for handling toxic culture</li>
+<ul>
+  <li>Guidance for handling toxic culture</li>
   <li>Guidance for handling illogical expectations of Boss</li>
   <li>Guidance for balancing job and personal life</li>
- 
 </ul>
 </div>
 
 <div class="achievements-card">
-
 <ul>
   <li>Guidance for handling various situations in job</li>
   <li>Guidance for Transfer</li>
@@ -1693,25 +1480,15 @@ Educational Guidance
     </div></section>
 
 
-
-
 <!-- Guidance-for-Business-Persons -->
 <section id="Guidance-for-Business-Persons" class="achievements">
-
-<class="achievements">
-    
 <div class="container">
-
-      
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
        <h2 class="section-title">
     <span class="icon"><i class="fas fa-sitemap"></i></span>
      Guidance for Business Persons
     <span class="green-line"></span>
 </h2>
-
        </div> </div>
- 
 
  <div class="container">
         <div class="achievements-grid">
@@ -1721,7 +1498,6 @@ Educational Guidance
   <li>Guidance for choosing a business option</li>
   <li>Guidance for execution of various departmental works</li>
   <li>Guidance for effective work management</li>
- 
 </ul>
 </div>
 
@@ -1734,24 +1510,23 @@ Educational Guidance
  <li>Guidance for efficient time management</li>
 </ul>
 </div>
+
 <div class="achievements-card">
 <ul>
   <li>Guidance for handling various situations in business</li>
   <li>Guidance for maintaining a peaceful mental state</li>
   <li>Guidance for maintaining a peaceful environment at the workplace</li>
-</ul></div>
+</ul>
+</div>
 
  </div>
     </div></section>
 
 
-
- 
 <!-- Vision-Mission -->
 <section id="Vision" class="achievements">
     <div class="container">
         
-            <!-- अब शीर्षक और हरी लाइन यहीं पर हैं -->
         <h2 class="section-title">
    
      Vision & Mission
@@ -1769,35 +1544,23 @@ Educational Guidance
                 <p>To integrate decision science effectively into education, business, and everyday life, enabling individuals to make impactful decisions.</p>
             </div>
 
-          
 <div class="achievements-card">
-                <h3>
-
-<i class="fa-solid fa-bullseye"></i>Mission</h3>
+                <h3><i class="fa-solid fa-bullseye"></i>Mission</h3>
                 <p>To empower individuals and organizations with practical decision-making strategies that foster sustainable success, reduce stress, and enhance mental clarity.</p>
             </div>
 
-                   
     </div></section>
-
-
-
 
 
 <!-- FOOTER -->
 
  <div class="container" style="text-align:center;">
-  
-
 
   <h3 style=" font-size:16px; font-weight:400; margin-bottom: 12px;">
    
      <b>Telephonic Consultancy</b><br>
 
-
-
 <a href="tel:+917000459268" target="_blank" style="color: #000000; text-decoration: none;">
-
       <i class="fab fa-whatsapp"></i> +91-7000459268
     </a><br>
 
@@ -1806,14 +1569,9 @@ Educational Guidance
   <i class="fas fa-envelope"></i> RLDMCS2020@gmail.com
 </a>
 
-
-    
 <br><br>
 
-
-
   <b>Note:</b> As I am not an MBBS (Doctor), I do not recommend taking or stopping any type of medicine/drug.<br>
-
 <br>
 
 
@@ -1824,16 +1582,11 @@ Educational Guidance
     <i class="fab fa-whatsapp"></i>
 </a>
 
-
     <a href="https://www.instagram.com/decision_consultant/"
    target="blank"
    class="social-icon social-instagram">
     <i class="fab fa-instagram" aria-hidden="true"></i>
-
 </a>
-
-
-
 
 <a href="https://facebook.com/profile.php?id=61579626782245"
    target="blank"
@@ -1847,14 +1600,11 @@ Educational Guidance
     <i class="fab fa-youtube"></i>
 </a>
 
-
 <a href="https://www.linkedin.com/in/rajesh-lakha-28b97b37/"
    target="blank"
    class="social-icon social-linkedin">
     <i class="fab fa-linkedin"></i>
 </a>
-
-
 
 <a href="https://share.google/cfFAAQJ2p0krA2kkd"
    target="blank"
@@ -1866,12 +1616,10 @@ Educational Guidance
    target="blank"
    class="social-icon social-twitter">
    <i class="fa-brands fa-x-twitter"></i>
-
 </a>
 <br><br>
 &copy; 2025 Rajesh Lakha Decision Consultant. All Rights Reserved.
   </h3>
-
 
  </div></footer>
 
@@ -1896,7 +1644,6 @@ document.addEventListener('keydown', function(e) {
     e.preventDefault();
   }
 });
-
 </script>
 
 <script>
@@ -1906,24 +1653,14 @@ document.addEventListener('copy', event => event.preventDefault());
 </script>
 
 <!-- Calling Floating Button -->
-
 <a href="tel:+917000459268" class="floating-button call-button">
   <i class="fa-solid fa-phone"></i>
 </a>
 
-
-
-
 <!-- Home Floating Button -->
-
 <a href="#All-Subjects" class="floating-button home-button">
   <i class="fas fa-home"></i>
 </a>
 
- 
-
-
-
     </body>
-</html> 
-
+</html>
